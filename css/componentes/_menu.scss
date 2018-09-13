@@ -1,0 +1,23 @@
+.menu{
+    float: right;
+    margin-right: 50px;
+}
+
+.ul-menu li{
+    display: inline-block;
+    color: red;
+    padding:10px 20px;
+
+}
+
+.ul-menu a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color: gray;
+
+    &:hover{
+        color: orange;
+    }
+}
+

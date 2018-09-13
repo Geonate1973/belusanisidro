@@ -1,0 +1,113 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.nombre-empresa {
+  font-size: 30px;
+  color: gray;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.redes {
+  position: absolute;
+  top: 5px;
+  right: 70px;
+}
+
+i {
+  color: gray;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 10px 30px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.texto-banner {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  padding-left: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.menu {
+  float: right;
+  margin-right: 50px;
+}
+
+.ul-menu li {
+  display: inline-block;
+  color: red;
+  padding: 10px 20px;
+}
+
+.ul-menu a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  color: gray;
+}
+
+.ul-menu a:hover {
+  color: orange;
+}
+
+.segundo-cuerpo {
+  width: 80%;
+  margin: auto;
+  padding: 20px 50px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1em;
+  color: gray;
+  letter-spacing: 0.2ch;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #4B4746;
+  color: white;
+}
+
+footer p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 0.9em;
+  padding-top: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */
